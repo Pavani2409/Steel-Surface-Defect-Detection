@@ -150,9 +150,6 @@ The system provides:
 
 ---
 
-## 👩‍💻 Author
-**Gunda Pavani**
 
----
 
 
