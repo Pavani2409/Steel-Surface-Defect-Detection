@@ -1,42 +1,158 @@
-# Steel Surface Defect Detection using Deep Learning
+# 🏭 Steel Surface Defect Detection using Deep Learning
 
-## Project Overview
-This project detects surface defects in steel using Deep Learning and Computer Vision techniques. It helps automate quality inspection in manufacturing industries.
+---
 
-## Objectives
-- Detect defects automatically from steel images
-- Reduce manual inspection errors
-- Improve industrial quality control
+## 📌 Project Description
+This project implements an **Automated Steel Surface Defect Detection System** using Deep Learning and Computer Vision.  
+The system classifies steel surface images into defect categories using multiple deep learning architectures and compares their performance.
 
-## Technologies Used
-- Python
-- Deep Learning
-- Computer Vision
-- Jupyter Notebook
-- OpenCV
-- TensorFlow / PyTorch
+The project uses **Transfer Learning** with state-of-the-art CNN architectures and applies **fine-tuning strategies** to improve classification accuracy.
 
-## Project Structure
+---
+
+## 🎯 Problem Statement
+Manual inspection of steel surfaces is:
+- Time consuming  
+- Error prone  
+- Costly in large-scale manufacturing  
+
+This project automates defect detection using AI-based image classification.
+
+---
+
+## 📂 Dataset Used
+**NEU Metal Surface Defect Dataset**
+
+Contains multiple defect classes such as:
+- Cracks  
+- Inclusions  
+- Scratches  
+- Patches  
+- Pitted surfaces  
+- Rolled-in scale  
+
+Dataset is loaded from ZIP and extracted dynamically in the notebook.
+
+---
+
+## 🧠 Models Implemented
+
+### 🔹 1. Custom CNN Model
+- Built using Sequential API  
+- Conv2D + MaxPooling + Dense Layers  
+- Used as baseline model  
+
+---
+
+### 🔹 2. VGG16 Transfer Learning Model
+- Pretrained on ImageNet  
+- Top layers customized  
+- Fine-tuned last layers  
+- Learning rate adjusted for stability  
+
+---
+
+### 🔹 3. ResNet50 Transfer Learning Model
+- Residual network architecture  
+- Multi-stage fine-tuning  
+- Progressive layer unfreezing  
+- Final boosted training stage  
+
+---
+
+## ⚡ Advanced Techniques Used
+- Transfer Learning  
+- Fine Tuning  
+- Mixed Precision Training (GPU Optimization)  
+- Learning Rate Scheduling  
+- Data Augmentation using ImageDataGenerator  
+
+---
+
+## 🧪 Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- Confusion Matrix Visualization  
+
+---
+
+## 📊 Model Comparison
+The project compares:
+- Custom CNN  
+- VGG16 Fine-tuned  
+- ResNet50 Fine-tuned  
+
+Performance comparison plotted using Matplotlib.
+
+---
+
+## 🧠 Technologies Used
+- Python  
+- TensorFlow  
+- Keras  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Scikit-learn  
+- Transfer Learning  
+- Mixed Precision Training  
+- Jupyter Notebook  
+
+---
+
+## 📂 Project Structure
+```
 Steel-Surface-Defect-Detection/
 │
-├── steel_defect_detection.ipynb
+├── steel surface defect detection.ipynb
 └── README.md
+```
 
-## How to Run
-1. Install required libraries:
-pip install numpy pandas matplotlib opencv-python tensorflow
+---
 
-2. Open Jupyter Notebook and run:
-steel_defect_detection.ipynb
+## ⚙️ How to Run Project
 
-## Applications
-- Steel manufacturing industries
-- Automated quality inspection
-- Industrial AI systems
+### 🔹 Step 1 — Install Dependencies
+```
+pip install tensorflow numpy pandas matplotlib scikit-learn
+```
 
-## Future Improvements
-- Real-time defect detection
-- Web application integration
+---
 
-## Author
-Gunda Pavani
+### 🔹 Step 2 — Run Notebook
+Open Jupyter Notebook and run:
+```
+steel surface defect detection.ipynb
+```
+
+---
+
+### 🔹 Step 3 — Upload Dataset ZIP
+Upload NEU dataset ZIP when prompted in notebook.
+
+---
+
+## 📊 Output
+The system provides:
+- Defect classification predictions  
+- Confusion matrix visualization  
+- Model accuracy comparison graphs  
+
+---
+
+## 🚀 Future Improvements
+- Real-time defect detection system  
+- Industrial camera integration  
+- Web-based monitoring dashboard  
+- Edge AI deployment  
+
+---
+
+## 👩‍💻 Author
+**Gunda Pavani**
+
+---
+
+
