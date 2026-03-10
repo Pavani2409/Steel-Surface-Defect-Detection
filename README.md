@@ -16,7 +16,7 @@ Manual inspection of steel surfaces is:
 - Error prone  
 - Costly in large-scale manufacturing  
 
-This project automates defect detection using AI-based image classification.
+This project automates defect classification using AI-based image classification.
 
 ---
 
@@ -104,9 +104,9 @@ Performance comparison plotted using Matplotlib.
 
 ## 📂 Project Structure
 ```
-Steel-Surface-Defect-Detection/
+Steel-Surface-Defect-Classification/
 │
-├── steel surface defect detection.ipynb
+├── steel surface defect classification.ipynb
 └── README.md
 ```
 
@@ -124,7 +124,7 @@ pip install tensorflow numpy pandas matplotlib scikit-learn
 ### 🔹 Step 2 — Run Notebook
 Open Jupyter Notebook and run:
 ```
-steel surface defect detection.ipynb
+steel surface defect classification.ipynb
 ```
 
 ---
