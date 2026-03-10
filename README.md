@@ -1,9 +1,9 @@
-# 🏭 Steel Surface Defect Detection using Deep Learning
+# 🏭 Steel Surface Defect Classification using Deep Learning
 
 ---
 
 ## 📌 Project Description
-This project implements an **Automated Steel Surface Defect Detection System** using Deep Learning and Computer Vision.  
+This project implements an **Automated Steel Surface Defect Classification System** using Deep Learning and Computer Vision.  
 The system classifies steel surface images into defect categories using multiple deep learning architectures and compares their performance.
 
 The project uses **Transfer Learning** with state-of-the-art CNN architectures and applies **fine-tuning strategies** to improve classification accuracy.
